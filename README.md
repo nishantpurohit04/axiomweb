@@ -1,38 +1,69 @@
-     1|# AxiomWeb: Universal User Guide
-     2|
-     3|Welcome to the **AxiomWeb** framework. This is a professional-grade orchestration skill designed to turn any AI agent into a world-class Creative Developer.
-     4|
-     5|## 🚀 How to Use This Skill
-     6|
-     7|### For Hermes Agent Users
-     8|1. Install the folder to `~/.hermes/skills/axiomweb`.
-     9|2. Simply tell your agent: *"Use the `AxiomWeb` skill to build my website."*
-    10|
-    11|### For Opencode / Claude Code / Windsurf Users
-    12|1. Add the `/axiomweb` folder to your project directory.
-    13|2. Tell your agent: *"Read the `SKILL.md` and `references/` folder in the `axiomweb` directory. Use this framework to build my site."*
-    14|
-    15|### For Cursor / VS Code AI Users
-    16|1. Add the `axiomweb` folder to your workspace.
-    17|2. Mention `@axiomweb` in your prompt to ensure the AI follows the protocols.
-    18|
-    19|## 🛠 The Technical Stack
-    20|This framework mandates the use of the "Cinematic Six" for a premium result:
-    21|- **Lenis:** Smooth, inertial scrolling.
-    22|- **GSAP:** Complex animation orchestration and ScrollTrigger.
-    23|- **Three.js / Spline:** 3D depth and atmospheric backgrounds.
-    24|- **Barba.js:** Seamless, flash-free page transitions.
-    25|- **AnimeJS:** High-fidelity micro-interactions.
-    26|- **Next.js + TypeScript:** The high-performance, type-safe foundation.
-    27|
-    28|## 📋 The Project Lifecycle
-    29|Every project follows the **AxiomWeb Standard**:
-    30|1. **Tier Analysis:** Showcase $\rightarrow$ Brand $\rightarrow$ Business.
-    31|2. **Mood Selection:** Luxury $\rightarrow$ Tech $\rightarrow$ Clean.
-    32|3. **Invisible Foundation:** Security, Backend, and Performance.
-    33|4. **Cinematic Layer:** 3D, Motion, and Visuals.
-    34|5. **Final Audit:** 60fps verification and security stress-test.
-    35|
-    36|## 📦 Distribution
-    37|This skill is distributed as a standalone bundle. All "Expertise" is baked into the `references/` folder, meaning no external dependencies are required for the AI to follow the protocol.
-    38|
+# 🏛️ AxiomWeb: The World-Class Cinematic Web Engine
+
+**AxiomWeb** is not a template or a theme. It is a **Global Standard**—a set of high-fidelity architectural protocols that transform any AI agent into an elite Creative Developer.
+
+By implementing AxiomWeb, you move beyond "websites" and begin building **Digital Experiences** defined by Temporal Fluidity, Spatial Depth, and Seamless Continuity.
+
+---
+
+## 🚀 Quick Start (Instant Installation)
+
+The fastest way to activate the AxiomWeb Standard is via the Universal Deployer.
+
+### 🌐 For Hermes Agent Users (Global Install)
+Install the skill once, and use it across all your projects.
+```bash
+npx axiomweb
+```
+*After installation, paste the activation prompt provided in the terminal into your agent.*
+
+### 📦 For Claude Code, Cursor, or OpenCode (Local Install)
+Deploy the standard directly into your current project root.
+```bash
+npx axiomweb --local
+```
+*This will create a `/.axiomweb` directory and automatically adapt your `.cursorrules` or `.clauderules` to enforce the standard.*
+
+---
+
+## 💎 The AxiomWeb Standard
+
+A project is only **AxiomWeb Certified** if it adheres to the three pillars of Cinematic Engineering:
+
+### 1. Temporal Fluidity
+No jerky movements. All motion must use organic easing curves via **GSAP** and inertial scrolling via **Lenis**.
+
+### 2. Spatial Depth
+Creation of "Atmospheric Layers" (Background $\rightarrow$ Midground $\rightarrow$ Foreground) using **Three.js** and **Spline** to create a visceral sense of 3D space.
+
+### 3. Seamless Continuity
+Zero "white flashes" or jarring reloads. Use **Barba.js** for fluid, cinematic page transitions that feel like a single continuous movie.
+
+---
+
+## 🛠️ The Technical Stack (The Cinematic Six)
+To achieve the AxiomWeb standard, the following stack is mandated:
+- **Next.js + TypeScript:** The high-performance, type-safe foundation.
+- **Lenis:** For smooth, inertial scrolling.
+- **GSAP:** For complex animation orchestration and ScrollTrigger.
+- **Three.js / Spline:** For 3D depth and atmospheric backgrounds.
+- **Barba.js:** For seamless page transitions.
+- **AnimeJS:** For high-fidelity micro-interactions.
+
+---
+
+## 📋 The Execution Roadmap
+AxiomWeb operates through a strict, phased implementation:
+
+1. **Phase 0: Adaptive Tiering** $\rightarrow$ Categorizing projects into **Showcase**, **Brand**, or **Business** to prevent over-engineering.
+2. **Phase 1: Blueprinting** $\rightarrow$ Defining the brand "Mood" and User Flow.
+3. **Phase 2: The Invisible Foundation** $\rightarrow$ Security, Backend, and Asset Pipelines.
+4. **Phase 3: The Structural Skeleton** $\rightarrow$ Layout and Core Routing.
+5. **Phase 4: The Cinematic Layer** $\rightarrow$ Implementing the "Cinematic Six."
+6. **Phase 5: Adaptive Optimization** $\rightarrow$ Performance tuning for Desktop Ultra and Mobile.
+7. **Phase 6: Zero-Failure Audit** $\rightarrow$ Final verification against the AxiomWeb Checklist.
+
+---
+
+## 📜 License
+MIT License. Built for the next generation of AI-driven web development.
