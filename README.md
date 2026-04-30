@@ -1,8 +1,8 @@
 # 🏛️ AxiomWeb: The World-Class Cinematic Web Engine
 
-**AxiomWeb** is not a template or a theme. It is a **Global Standard**—a set of high-fidelity architectural protocols that transform any AI agent into an elite Creative Developer.
+**AxiomWeb** is not a template or a theme. It is a **Global Standard**—a set of high-fidelity architectural protocols that transform any AI agent into an elite Creative Developer and Software Architect.
 
-By implementing AxiomWeb, you move beyond "websites" and begin building **Digital Experiences** defined by Temporal Fluidity, Spatial Depth, and Seamless Continuity.
+By implementing AxiomWeb, you move beyond "websites" and begin building **Digital Experiences** defined by Temporal Fluidity, Spatial Depth, and Seamless Continuity, backed by enterprise-grade engineering.
 
 ---
 
@@ -28,27 +28,35 @@ npx axiomweb --local
 
 ## 💎 The AxiomWeb Standard
 
-A project is only **AxiomWeb Certified** if it adheres to the three pillars of Cinematic Engineering:
+A project is only **AxiomWeb Certified** if it achieves a perfect balance between the **Visual Soul** and the **Engineering Brain**.
 
-### 1. Temporal Fluidity
-No jerky movements. All motion must use organic easing curves via **GSAP** and inertial scrolling via **Lenis**.
+### 🎨 The Visual Soul (The Experience)
+- **Temporal Fluidity:** No jerky movements. All motion uses organic easing via **GSAP** and inertial scrolling via **Lenis**.
+- **Spatial Depth:** Creation of "Atmospheric Layers" using **Three.js** and **Spline** to create a visceral sense of 3D space.
+- **Seamless Continuity:** Zero "white flashes." **Barba.js** ensures the site feels like a single, continuous cinematic sequence.
 
-### 2. Spatial Depth
-Creation of "Atmospheric Layers" (Background $\rightarrow$ Midground $\rightarrow$ Foreground) using **Three.js** and **Spline** to create a visceral sense of 3D space.
-
-### 3. Seamless Continuity
-Zero "white flashes" or jarring reloads. Use **Barba.js** for fluid, cinematic page transitions that feel like a single continuous movie.
+### ⚙️ The Engineering Brain (The Foundation)
+- **Zero-Trust Security:** Implementation of OWASP standards, secure API gateways, and hardened authentication.
+- **Architectural Scalability:** Decoupled Headless CMS architecture for instant content updates without redeploying code.
+- **Performance Parity:** Rigorous optimization to maintain $\ge 60\text{fps}$ on Desktop and $\ge 30\text{fps}$ on Mobile.
 
 ---
 
-## 🛠️ The Technical Stack (The Cinematic Six)
-To achieve the AxiomWeb standard, the following stack is mandated:
+## 🛠️ The Technical Stack
+
+### The Cinematic Six (Visuals)
 - **Next.js + TypeScript:** The high-performance, type-safe foundation.
-- **Lenis:** For smooth, inertial scrolling.
-- **GSAP:** For complex animation orchestration and ScrollTrigger.
-- **Three.js / Spline:** For 3D depth and atmospheric backgrounds.
-- **Barba.js:** For seamless page transitions.
-- **AnimeJS:** For high-fidelity micro-interactions.
+- **Lenis:** Smooth, inertial scrolling.
+- **GSAP:** Complex animation orchestration and ScrollTrigger.
+- **Three.js / Spline:** 3D depth and atmospheric backgrounds.
+- **Barba.js:** Seamless page transitions.
+- **AnimeJS:** High-fidelity micro-interactions.
+
+### The Core Foundation (Engineering)
+- **Headless CMS:** (Strapi / Sanity / Contentful) for decoupled content management.
+- **Zero-Trust Security:** JWT, OAuth2, and secure middleware layers.
+- **Asset Pipeline:** Next/Image optimization, WebP/AVIF conversion, and CDN edge-caching.
+- **Infrastructure:** Vercel/AWS for global edge deployment and low-latency delivery.
 
 ---
 
