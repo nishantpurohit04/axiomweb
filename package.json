@@ -1,0 +1,21 @@
+{
+  "name": "axiomweb",
+  "version": "1.0.0",
+  "description": "Professional installer for the AxiomWeb Cinematic Web Engine skill bundle.",
+  "main": "install.js",
+  "bin": {
+    "axiomweb": "install.js"
+  },
+  "keywords": [
+    "ai-skill",
+    "hermes-agent",
+    "cinematic-web",
+    "axiomweb",
+    "frontend-standard"
+  ],
+  "author": "Nishant",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
