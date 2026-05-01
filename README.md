@@ -21,12 +21,14 @@ npx axiomweb
 *After installation, copy the activation prompt provided in the terminal and paste it into your agent.*
 
 ### 📦 For Claude Code, Cursor, or OpenCode (Local Install)
-Deploy the standard directly into your current project root.
-```bash
-npx axiomweb
-```
-**Step:** Once the menu opens, select **[Local Install]**.
-*This will create a `/.axiomweb` directory and automatically adapt your `.cursorrules` or `.clauderules` to enforce the standard.*
+1. **Setup:** Open your terminal **inside your project root directory**.
+2. **Deploy:** Run the following command:
+   ```bash
+   npx axiomweb
+   ```
+   Once the menu opens, select **[Local Install]**. This will create a `/.axiomweb` directory containing the full standard.
+3. **Activate:** Paste the following prompt into your AI agent to ignite the engine:
+   *"Initialize AxiomWeb. Read the standard in ./.axiomweb/SKILL.md and adopt the AxiomWeb Orchestrator persona for this project."*
 
 ---
 
