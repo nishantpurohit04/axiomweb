@@ -15,7 +15,9 @@ Install the skill once, and use it across all your projects.
 ```bash
 npx axiomweb
 ```
-*After installation, paste the activation prompt provided in the terminal into your agent.*
+**⚠️ Windows Users:** If you are using Hermes inside **WSL**, you MUST run this command inside your **WSL terminal** to ensure the skill is installed in the correct Linux environment.
+
+*After installation, copy the activation prompt provided in the terminal and paste it into your agent.*
 
 ### 📦 For Claude Code, Cursor, or OpenCode (Local Install)
 Deploy the standard directly into your current project root.
