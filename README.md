@@ -11,14 +11,16 @@ By implementing AxiomWeb, you move beyond "websites" and begin building **Digita
 The fastest way to activate the AxiomWeb Standard is via the Universal Deployer.
 
 ### 🌐 For Hermes Agent Users (Global Install)
-Install the skill once, and use it across all your projects.
+An AxiomWeb **Skill** is a set of high-fidelity architectural protocols that "upgrade" your AI agent's cognitive framework. Install it once to enable these standards across all your projects.
+
 ```bash
 npx axiomweb
 ```
 **Step:** Once the menu opens, select **[Global Install]**.
-**⚠️ Windows Users:** If you are using Hermes inside **WSL**, you MUST run this command inside your **WSL terminal** to ensure the skill is installed in the correct Linux environment.
+**⚠️ Windows Users:** If you are using Hermes inside **WSL**, you MUST run this command inside your **WSL terminal**.
 
-*After installation, copy the activation prompt provided in the terminal and paste it into your agent.*
+**Activate:** Paste this prompt into your agent to ignite the engine:
+*"Activate AxiomWeb. Adopt the AxiomWeb Orchestrator persona and initialize Phase 0 for this project."*
 
 ### 📦 For Claude Code, Cursor, or OpenCode (Local Install)
 1. **Setup:** Open your terminal **inside your project root directory**.
@@ -50,6 +52,7 @@ A project is only **AxiomWeb Certified** if it achieves a perfect balance betwee
 ---
 
 ## 🛠️ The Technical Stack
+The following is the **Recommended Gold Standard** for achieving maximum cinematic fidelity. While these protocols can be adapted to other modern frameworks, this stack ensures the most seamless implementation of the AxiomWeb standard.
 
 ### The Cinematic Six (Visuals)
 - **Next.js + TypeScript:** The high-performance, type-safe foundation.
