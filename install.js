@@ -137,7 +137,7 @@ async function adaptAgentConfigs() {
 function finish() {
     console.log(`\n${colors.bright}${colors.cyan}--------------------------------------------------${colors.reset}`);
     console.log(`${colors.bright}AxiomWeb is now ACTIVE.${colors.reset}`);
-    console.log(`Command: ${colors.green}"Initialize AxiomWeb Phase 0 for my project"${colors.reset}`);
+    console.log(`Command: ${colors.green}"Activate AxiomWeb. Adopt the AxiomWeb Orchestrator persona and initialize Phase 0 for this project."${colors.reset}`);
     console.log(`${colors.bright}${colors.cyan}--------------------------------------------------${colors.reset}`);
     process.exit(0);
 }
