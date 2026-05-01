@@ -29,30 +29,45 @@ const colors = {
 
 async function showMenu() {
     console.clear();
+    const isWin = process.platform === 'win32';
+    
     console.log(`${colors.bright}${colors.cyan}==================================================${colors.reset}`);
     console.log(`${colors.bright}${colors.cyan}             AXIOMWEB UNIVERSAL DEPLOYER           ${colors.reset}`);
     console.log(`${colors.bright}${colors.cyan}==================================================${colors.reset}`);
     console.log(`\n${colors.bright}Please select an installation mode:${colors.reset}`);
-    console.log(`\n  ${colors.green}[1]${colors.reset} ${colors.bright}Global Install${colors.reset} (For Hermes Agent)`);
-    if (process.platform === 'win32') {
+
+    if (isWin) {
+        console.log(`\n  ${colors.green}[1]${colors.reset} ${colors.bright}Local Install${colors.reset} (For Cursor, Claude Code, OpenCode)`);
+        console.log(`  ${colors.green}[2]${colors.reset} ${colors.bright}Global Install${colors.reset} (For Hermes Agent)`);
         console.log(`     ${colors.yellow}💡 Note: If using Hermes in WSL, run this in your WSL terminal.${colors.reset}`);
+    } else {
+        console.log(`\n  ${colors.green}[1]${colors.reset} ${colors.bright}Global Install${colors.reset} (For Hermes Agent)`);
+        console.log(`  ${colors.green}[2]${colors.reset} ${colors.bright}Local Install${colors.reset} (For Cursor, Claude Code, OpenCode)`);
     }
-    console.log(`  ${colors.green}[2]${colors.reset} ${colors.bright}Local Install${colors.reset} (For Cursor, Claude Code, OpenCode)`);
+    
     console.log(`  ${colors.green}[3]${colors.reset} ${colors.bright}Update AxiomWeb${colors.reset} (Sync latest standards)`);
     console.log(`  ${colors.green}[4]${colors.reset} ${colors.bright}Exit${colors.reset}`);
     console.log(`\n${colors.bright}${colors.cyan}--------------------------------------------------${colors.reset}`);
 
     rl.question('\nSelection: ', async (choice) => {
-        switch (choice) {
-            case '1': await installGlobal(); break;
-            case '2': await installLocal(); break;
-            case '3': await update(); break;
-            case '4': process.exit(0);
-            default: 
-                console.log(`${colors.red}Invalid choice. Please try again.${colors.reset}`);
-                setTimeout(showMenu, 1500);
+        if (choice === '3') { await update(); return; }
+        if (choice === '4') { process.exit(0); return; }
+
+        if (isWin) {
+            if (choice === '1') await installLocal();
+            else if (choice === '2') await installGlobal();
+            else handleInvalid();
+        } else {
+            if (choice === '1') await installGlobal();
+            else if (choice === '2') await installLocal();
+            else handleInvalid();
         }
     });
+}
+
+function handleInvalid() {
+    console.log(`${colors.red}Invalid choice. Please try again.${colors.reset}`);
+    setTimeout(showMenu, 1500);
 }
 
 async function installGlobal() {
