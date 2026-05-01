@@ -34,6 +34,9 @@ async function showMenu() {
     console.log(`${colors.bright}${colors.cyan}==================================================${colors.reset}`);
     console.log(`\n${colors.bright}Please select an installation mode:${colors.reset}`);
     console.log(`\n  ${colors.green}[1]${colors.reset} ${colors.bright}Global Install${colors.reset} (For Hermes Agent)`);
+    if (process.platform === 'win32') {
+        console.log(`     ${colors.yellow}💡 Note: If using Hermes in WSL, run this in your WSL terminal.${colors.reset}`);
+    }
     console.log(`  ${colors.green}[2]${colors.reset} ${colors.bright}Local Install${colors.reset} (For Cursor, Claude Code, OpenCode)`);
     console.log(`  ${colors.green}[3]${colors.reset} ${colors.bright}Update AxiomWeb${colors.reset} (Sync latest standards)`);
     console.log(`  ${colors.green}[4]${colors.reset} ${colors.bright}Exit${colors.reset}`);
