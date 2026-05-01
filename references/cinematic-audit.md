@@ -3,10 +3,12 @@
 This is the final gate. The project is not complete until every item is checked.
 
 ## 1. Visual & Motion Audit
+- [ ] **Impeccable Scan:** Has the `detect-antipatterns` script been run? Are all "Slop" and "Quality" flags resolved?
 - [ ] **Temporal Fluidity:** Does the site use Lenis? Is there any "jitter" during scroll?
 - [ ] **Spatial Depth:** Are there at least 3 layers (Atmosphere $\rightarrow$ Content $\rightarrow$ Overlay)?
 - [ ] **Transition Flow:** Does Barba.js prevent all page flashes?
 - [ ] **Micro-Interaction:** Do buttons and links have polished AnimeJS effects?
+- [ ] **Visual Rhythm:** Does the layout avoid "equal padding" and utilize a rhythmic beat of tight and generous spacing?
 
 ## 2. Engineering & Performance Audit
 - [ ] **Frame Rate:** Does the 3D background maintain $\ge 60\text{fps}$ on Desktop?

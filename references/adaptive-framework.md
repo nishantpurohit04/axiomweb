@@ -23,3 +23,11 @@ The agent must select a mood *before* implementing the 3D/Visual layer.
 ## 3. Mandatory Tier-Confirmation Protocol
 The agent must present the following to the user before starting Phase 1:
 *"Based on your request, I have categorized this as a **[Tier X]** project. This means we will implement [List of Modules]. Do you agree with this scope, or should we upgrade/downgrade the tier?"*
+
+## 4. The Impeccable Polishing Loop (Phase 5)
+During the "Adaptive Optimization" phase, the agent MUST NOT simply write code and save. They must employ the **Live-Polishing Loop**:
+1. **Inject:** Apply a visual change to the live page.
+2. **Sensing:** Poll the DOM and capture a visual state (via screenshot/metric).
+3. **Tweak:** Adjust spacing, color, or typography based on the Impeccable Visual Standards.
+4. **Verify:** Run the `detect-antipatterns` scan.
+5. **Commit:** Only once the "Judge" (Detector) returns a pass, save the final code to the file.

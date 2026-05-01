@@ -1,6 +1,6 @@
 {
   "name": "axiomweb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Professional installer for the AxiomWeb Cinematic Web Engine skill bundle.",
   "main": "install.js",
   "bin": {
